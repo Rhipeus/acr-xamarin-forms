@@ -1,4 +1,4 @@
-##Xamarin Forms Signature Pad 
+##Xamarin Forms Signature Pad for Xamarin Forms v2 (iOS/Android/Windows Phone/Windows)
 =================
 ###Signature Pad
 Android/iOS Control provided by [Xamarin Signature Pad](https://github.com/xamarin/SignaturePad).  
