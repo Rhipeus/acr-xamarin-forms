@@ -104,21 +104,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <ProjectReference Include="..\Acr.XamForms.SignaturePad.Windows8\Acr.XamForms.SignaturePad.Windows8.csproj">
-      <Project>{4335636b-6d95-4ca2-85c7-1e2e27728cbd}</Project>
-      <Name>Acr.XamForms.SignaturePad.Windows8</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Acr.XamForms.SignaturePad\Acr.XamForms.SignaturePad.csproj">
-      <Project>{b2af970d-d640-451c-95af-92af531b8c1e}</Project>
-      <Name>Acr.XamForms.SignaturePad</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Samples\Samples\Samples.csproj">
-      <Project>{cc18e151-5792-4da5-ade6-7cfba16a593e}</Project>
-      <Name>Samples</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -187,6 +172,20 @@
       <HintPath>..\packages\Xamarin.Forms.2.3.0.107\lib\win81\Xamarin.Forms.Xaml.dll</HintPath>
       <Private>True</Private>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acr.XamForms.SignaturePad.Windows8\Acr.XamForms.SignaturePad.Windows8.csproj">
+      <Project>{4335636b-6d95-4ca2-85c7-1e2e27728cbd}</Project>
+      <Name>Acr.XamForms.SignaturePad.Windows8</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Acr.XamForms.SignaturePad\Acr.XamForms.SignaturePad.csproj">
+      <Project>{b2af970d-d640-451c-95af-92af531b8c1e}</Project>
+      <Name>Acr.XamForms.SignaturePad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Samples\Samples\Samples.csproj">
+      <Project>{cc18e151-5792-4da5-ade6-7cfba16a593e}</Project>
+      <Name>Samples</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

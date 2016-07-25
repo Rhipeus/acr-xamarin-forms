@@ -152,6 +152,10 @@
       <Project>{b2af970d-d640-451c-95af-92af531b8c1e}</Project>
       <Name>Acr.XamForms.SignaturePad</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Samples\Samples.csproj">
+      <Project>{cc18e151-5792-4da5-ade6-7cfba16a593e}</Project>
+      <Name>Samples</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
