@@ -1,9 +1,10 @@
-##Xamarin Forms Signature Pad 
+##Xamarin Forms Signature Pad for Xamarin Forms v2 (iOS/Android/Windows Phone/Windows)
 =================
 ###Signature Pad
 Android/iOS Control provided by [Xamarin Signature Pad](https://github.com/xamarin/SignaturePad).  
-This Library is a Fork of https://github.com/aritchie/acr-xamarin-forms
-I am actively adding Windows Runtime support
+This Library is a Fork of https://github.com/nate84/acr-xamarin-forms
+
+This Fork is an updated version with Xamarin Forms v2.3.0.107 (for compatibility xamarin android is aligned with v23.3.0)
 
 This library provides a way to call for a dialog from a view model command or
 it can be used within your XAML views.
